@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h2>Real-Time Character Counter</h2>
+        <textarea name="textbox" class="textbox" onkeyup="charcountupdate(this.value)" placeholder="Please write your text here..."></textarea>
+        <div class="count">
+        <span id=charcount>Total Character : 0</span>
+        <span id="charcountriv">Remaining Character : 50</span>
+    </div>
+        <!-- <button onclick="clear()">Clear</button> -->
+        <script src="main.js"></script>
+    </div>
+</body>
+</html>

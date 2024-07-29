@@ -1,0 +1,28 @@
+.content{
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgb(247, 247, 227);
+    box-shadow: 5px 5px 5px black;
+    width: 600px;
+}
+.content h2{
+    color: blueviolet;
+    text-shadow: 1px 0.5px 0.5px black;
+    text-align: center;
+}
+.content textarea{
+    width: 550px;
+    height: 100px;
+    padding: 10px;
+    resize: none;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.count{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+#charcount{
+    margin-right: 50px;
+}
